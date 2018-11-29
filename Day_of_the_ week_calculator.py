@@ -26,7 +26,8 @@ if __name__ == '__main__' :
     print("Find the day of the week for any given date since 1 Jan 0000 AD")
     print("[Press Ctrl + C to exit]")
     print("---------------------------------------------------------------")
-    while not False :
+    while True :
+        # Another loop inside this to show an input prompt again even when it is exited using break
         while True :
             try : 
                 date = int(input("Enter date (1-31) : "))
